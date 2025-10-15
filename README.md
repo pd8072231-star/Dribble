@@ -27,6 +27,7 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 bootstrap.html
+```
 <html>
 <head>
   <title>Dribbble Style Page</title>
@@ -170,6 +171,7 @@ bootstrap.html
 
 </body>
 </html>
+```
 
 
 ## OUTPUT:
