@@ -26,11 +26,13 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
-bootstrap.html
+```
 <html>
 <head>
   <title>Dribbble Style Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
   <style>
     body {
       background-color: pink;
@@ -56,31 +58,68 @@ bootstrap.html
       font-weight: bold;
       font-size: 20px;
     }
+    .d-flex justify-content-end p-3 bg-white{
+      padding: 4px;
+      background-color: brown;
+    }
   </style>
 </head>
 <body>
-    <h3>dribble nature</h3>
+    <h3>dribble nature images</h3>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!-- Dribbble brand on left -->
+      <a class="navbar-brand" href="#">Dribbble Nature</a>
+
+      <!-- Navbar items -->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Farming</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Learn more</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Crops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Weather</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
 
   
 
 
-  <!-- Top Bar for Sign In / Sign Up -->
+  
   <div class="d-flex justify-content-end p-3 bg-white">
     <a href="#" class="me-3 text-decoration-none">Sign in</a>
     <a href="#" class="btn btn-signup">Sign up</a>
   </div>
 
-  <!-- Header Section -->
+  
   <div class="text-center my-4">
-    <h4 class="fw-bold">What are you working on?</h4>
-    <p class="subtext">Dribbble is show and tell for designers.</p>
+    <h4 class="fw-bold"> We are responsible for our nature!Protect nature!</h4>
+    <p class="subtext">This is designed for the farmers.</p>
     <button class="btn btn-learn me-2">Learn more</button>
     <button class="btn btn-signup">Sign up</button>
   </div>
 
-  <!-- Image Grid -->
+
   <div class="container">
-    <!-- Row 1 -->
+
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="image1.png" class="img-fluid rounded">
@@ -108,7 +147,7 @@ bootstrap.html
       </div>
     </div>
 
-    <!-- Row 2 -->
+  
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="image7.png" class="img-fluid rounded">
@@ -136,7 +175,7 @@ bootstrap.html
       </div>
     </div>
 
-    <!-- Row 3 -->
+    
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="image13.png" class="img-fluid rounded">
@@ -170,12 +209,12 @@ bootstrap.html
 
 </body>
 </html>
+```
 
-
+       
 ## OUTPUT:
-![alt text](<Screenshot (257).png>)
-![alt text](<Screenshot (258).png>)
-
+![alt text](<Screenshot (259).png>)
+![alt text](<Screenshot (260).png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
