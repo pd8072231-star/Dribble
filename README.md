@@ -32,47 +32,13 @@ bootstrap.html
 <head>
   <title>Dribbble Style Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <style>
-    body {
-      background-color: pink;
-    }
-    .subtext {
-      color:black;
-    }
-    .btn-learn {
-      background-color: grey;
-      color: blue;
-    }
-    .btn-signup {
-      background-color: #ea4c89;
-      color:blue;
-    }
-    .image-label {
-      font-size: 14px;
-      text-align: center;
-      margin-top: 5px;
-    }
-    .navbar-brand {
-      color: #ea4c89 !important;
-      font-weight: bold;
-      font-size: 20px;
-    }
-    .d-flex justify-content-end p-3 bg-white{
-      padding: 4px;
-      background-color: brown;
-    }
-  </style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
 </head>
 <body>
-    <h3>dribble nature images</h3>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <!-- Dribbble brand on left -->
       <a class="navbar-brand" href="#">Dribbble Nature</a>
-
-      <!-- Navbar items -->
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-3">
           <li class="nav-item">
@@ -97,125 +63,113 @@ bootstrap.html
       </div>
     </div>
   </nav>
+  <div class="d-flex justify-content-end p-3 bg-secondary">
+    <a href="#" class="me-3 btn-signin">Sign in</a>
+    <a href="#" class="me-3 btn-signup">Sign up</a>
+  </div>
+  <div class="container mt-4">
+  <div class="d-flex justify-content-center gap-3 flex-wrap">
 
-
-
-
-  
-
-
-  
-  <div class="d-flex justify-content-end p-3 bg-white">
-    <a href="#" class="me-3 text-decoration-none">Sign in</a>
-    <a href="#" class="btn btn-signup">Sign up</a>
+    <div class="dropdown" align="text-center">
+      <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Popular
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Popular</a></li>
+        <li><a class="dropdown-item" href="#">Trending</a></li>
+        <li><a class="dropdown-item" href="#">Newest</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Shots
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">All Shots</a></li>
+        <li><a class="dropdown-item" href="#">GIFs</a></li>
+        <li><a class="dropdown-item" href="#">Illustrations</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Now
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Now</a></li>
+        <li><a class="dropdown-item" href="#">This Week</a></li>
+        <li><a class="dropdown-item" href="#">This Month</a></li>
+      </ul>
+    </div>
+  </div>
   </div>
 
-  
-  <div class="text-center my-4">
+<div class="text-center my-4">
     <h4 class="fw-bold"> We are responsible for our nature!Protect nature!</h4>
     <p class="subtext">This is designed for the farmers.</p>
-    <button class="btn btn-learn me-2">Learn more</button>
-    <button class="btn btn-signup">Sign up</button>
-  </div>
-
-
+    <button class="btn btn-success">Learn more</button>
+    <button class="btn btn-success">Sign up</button>
+</div>
   <div class="container">
-
-    <div class="row mb-4">
-      <div class="col-2 text-center">
-        <img src="image1.png" class="img-fluid rounded">
-        <div class="image-label">nature 1</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image2.png" class="img-fluid rounded">
-        <div class="image-label">nature 2</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image3.png" class="img-fluid rounded">
-        <div class="image-label">nature 3</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image4.png" class="img-fluid rounded">
-        <div class="image-label">nature 4</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image5.png" class="img-fluid rounded">
-        <div class="image-label">nature 5</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image6.png" class="img-fluid rounded">
-        <div class="image-label">nature 6</div>
-      </div>
-    </div>
-
-  
-    <div class="row mb-4">
-      <div class="col-2 text-center">
-        <img src="image7.png" class="img-fluid rounded">
-        <div class="image-label">nature 7</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image8.png" class="img-fluid rounded">
-        <div class="image-label">nature 8</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image9.png" class="img-fluid rounded">
-        <div class="image-label">nature 9</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image10.png" class="img-fluid rounded">
-        <div class="image-label">nature 10</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image11.png" class="img-fluid rounded">
-        <div class="image-label">nature 11</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image12.png" class="img-fluid rounded">
-        <div class="image-label">nature 12</div>
-      </div>
-    </div>
-
+  <div class="row g-4">
     
-    <div class="row mb-4">
-      <div class="col-2 text-center">
-        <img src="image13.png" class="img-fluid rounded">
-        <div class="image-label">nature 13</div>
+    <div class="col-md-3 col-sm-6">
+      <div class="card">
+        <img src="image1.png" class="card-img-top" alt="Sample Image">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Water fall</h6>
+          <p class="card-text text-muted small mb-0">
+            </p>
+        </div>
       </div>
-      <div class="col-2 text-center">
-        <img src="image14.png" class="img-fluid rounded">
-        <div class="image-label">nature 14</div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card">
+        <img src="image2.png" class="card-img-top" alt="Sample Image">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Sunrise</h6>
+          <p class="card-text text-muted small mb-0">
+            
+          </p>
+        </div>
       </div>
-      <div class="col-2 text-center">
-        <img src="image15.png" class="img-fluid rounded">
-        <div class="image-label">nature 15</div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card">
+        <img src="image3.png" class="card-img-top" alt="Sample Image">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Greenary</h6>
+          <p class="card-text text-muted small mb-0">
+            
+          </p>
+        </div>
       </div>
-      <div class="col-2 text-center">
-        <img src="image16.png" class="img-fluid rounded">
-        <div class="image-label">nature 16</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image17.png" class="img-fluid rounded">
-        <div class="image-label">nature 17</div>
-      </div>
-      <div class="col-2 text-center">
-        <img src="image18.png" class="img-fluid rounded">
-        <div class="image-label">nature 18</div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card">
+        <img src="image4.png" class="card-img-top" alt="Sample Image">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Mountain</h6>
+          <p class="card-text text-muted small mb-0">
+            
+          </p>
+        </div>
       </div>
     </div>
   </div>
-  <footer class="bg-dark text-white text-center">
+</div>
+  <footer class="bg-info text-white text-center">
     <p>&copy;Designed by P.Dharshini(25010127)</p>
   </footer>
-
 </body>
 </html>
 ```
 
        
 ## OUTPUT:
-![alt text](<Screenshot (259).png>)
-![alt text](<Screenshot (260).png>)
+![alt text](<Screenshot (263).png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
